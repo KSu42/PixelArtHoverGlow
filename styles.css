@@ -4,7 +4,7 @@ body {
     background: linear-gradient(to right, #48414B, #1F45FE, #48414B);
 }
 
-#titleButton {
+h1 {
     display: inline-block;
 -webkit-box-sizing: border-box;
 -moz-box-sizing: border-box;
@@ -43,7 +43,7 @@ transform: none;
 transform-origin: 50% 50% 0;
 }
 
-#titleButton:hover {
+h1:hover {
     display: inline-block;
 -webkit-box-sizing: border-box;
 -moz-box-sizing: border-box;
