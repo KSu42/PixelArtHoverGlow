@@ -48,7 +48,8 @@ transform-origin: 50% 50% 0;
     font: normal 45px/normal "Monoton", Helvetica, sans-serif;
 }
 
-.sizeHeader,.colorHeader {
+.sizeHeader,
+.colorHeader {
     font: normal 30px/normal "Monoton", Helvetica, sans-serif;
 }
 
