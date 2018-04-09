@@ -38,9 +38,12 @@ function makeGrid(height,width) {
 	}
 
 	// change cell color when clicked
-	$("#pixelCanvas").on("click", "td", function() {
+	$("#pixelCanvas").on("mousedown mouseover", "td", function(e) {
 
-		// change background color of event target's
-		$(this).css("background-color", $("#colorPicker").val());
+		if (e.buttons === 1) {
+
+			// change background color of event target's
+			$(this).css("background-color", $("#colorPicker").val());
+		}
 	});
 }
