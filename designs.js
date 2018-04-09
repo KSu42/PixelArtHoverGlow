@@ -4,7 +4,7 @@ $(document).ready(function() {
 });
 
 // Submit button
-$("input[type='submit']").on("click",function(event) {
+$("input[type='button']").on("click",function(event) {
 
 	// prevent submit button from submitting data to form handler
 	event.preventDefault();
