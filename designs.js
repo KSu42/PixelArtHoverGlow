@@ -29,13 +29,13 @@ function makeGrid(height,width) {
 	for (let i = 0; i < height; i++) {
 
 		// create row
-		console.log("row"+i);
+		$("#pixelCanvas").append($("<tr></tr>"));
 
 		// for number up to width
 		for (let j = 0; j < width; j++) {
 
 			// add cell to row
-			console.log("td"+j);
+			$("tr").last().append($("<td></td>"));
 		}
 	}
 }
