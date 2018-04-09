@@ -1,6 +1,7 @@
 $(document).ready(function() {
 	console.log('bonjour');
-})
+});
+
 
 // Submit button
 $("input[type='submit']").on("click",function(event) {
