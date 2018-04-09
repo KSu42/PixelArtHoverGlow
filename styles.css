@@ -5,7 +5,7 @@ body {
 }
 
 h1 {
-    font: normal 100px/normal "Monoton", Helvetica, sans-serif;
+    font: normal 85px/normal "Monoton", Helvetica, sans-serif;
 }
 
 .neonEffect {
@@ -14,8 +14,8 @@ h1 {
     height: auto;
     cursor: default;
     opacity: 1;
-    margin: 0.2em;
-    padding: 10px;
+    margin: 0.1em;
+    padding: 0px;
     overflow: visible;
     border: none;
     -webkit-border-radius: 0;
@@ -66,7 +66,13 @@ h1 {
     font: normal 15px/normal "Monoton", Helvetica, sans-serif;
 }
 
-.sizeSection {
+.buttonStyle {
+    border-radius: 8px;
+    border: 2px dashed black;
+    padding: 2px;
+}
+
+/*.sizeSection {
     position: absolute;
     top: 200px;
     left: 10px;
@@ -76,7 +82,7 @@ h1 {
     position: absolute;
     top: 200px;
     right: 10px;
-}
+}*/
 
 table,
 tr,
@@ -87,6 +93,7 @@ td {
 table {
     border-collapse: collapse;
     margin: 0 auto;
+    border: 4px solid black;
 }
 
 tr {
