@@ -1,7 +1,7 @@
+// Log message to console after DOM is loaded
 $(document).ready(function() {
 	console.log('bonjour');
 });
-
 
 // Submit button
 $("input[type='submit']").on("click",function(event) {
@@ -44,4 +44,3 @@ function makeGrid(height,width) {
 		$(this).css("background-color", $("#colorPicker").val());
 	});
 }
-
