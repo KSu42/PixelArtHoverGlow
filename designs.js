@@ -33,5 +33,12 @@ function makeGrid(height,width) {
 			$("tr").last().append($("<td></td>"));
 		}
 	}
+
+	// change cell color when clicked
+	$("#pixelCanvas").on("click", "td", function() {
+
+		// change background color of event target's
+		$(this).css("background-color", $("#colorPicker").val());
+	});
 }
 
