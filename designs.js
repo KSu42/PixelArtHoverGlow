@@ -20,11 +20,12 @@ $(document).ready(function() {
 	});
 
 	var isShiftPressed = false;
-		// Check if Shift is pressed
+	// Check if Shift is pressed
 	var syncShift = function(event) {
 		isShiftPressed = event.shiftKey;
 	};
 
+	// Set up grid with default values on page load
 	$("input[type='button']").click();
 
 	// When size is submitted by the user, call makeGrid()

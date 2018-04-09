@@ -54,12 +54,16 @@ h1 {
         0 0 80px #00ffff , 0 0 100px #00ffff ;
 }
 
-.largeFont {
+.largerFont {
     font: normal 45px/normal "Monoton", Helvetica, sans-serif;
 }
 
+.largeFont {
+    font: normal 40px/normal "Monoton", Helvetica, sans-serif;
+}
+
 .mediumFont {
-    font: normal 25px/normal "Monoton", Helvetica, sans-serif;
+    font: normal 20px/normal "Monoton", Helvetica, sans-serif;
 }
 
 .smallFont {
