@@ -14,7 +14,6 @@ var pixelCanvas = $('#pixelCanvas');
 $("input[type='submit']").on("click",function(event) {
 
 	event.preventDefault();
-	console.log("LISTEN!");
 
 	const height = $("#inputHeight").val();
 	const width = $('#inputWeight').val();
@@ -26,7 +25,18 @@ $("input[type='submit']").on("click",function(event) {
 
 function makeGrid(height,width) {
 
-// Your code goes here!
-	console.log(height,width);
+	// for number up to hieght
+	for (let i = 0; i < height; i++) {
 
+		// create row
+		console.log("row"+i);
+
+		// for number up to width
+		for (let j = 0; j < width; j++) {
+
+			// add cell to row
+			console.log("td"+j);
+		}
+	}
 }
+
