@@ -6,31 +6,45 @@
     <link rel="stylesheet" href="styles.css" type="text/css">
 </head>
 <body>
-    <h1>Pixel*Art*Maker</h1>
+    <h1 class="neonEffect">Pixel*Art*Maker</h1>
 
-    <h2>Choose Grid Size</h2>
+    <div class="sizeSection">
+
+    <h2 class="sizeHeader neonEffect">Choose Grid Size</h2>
 
     <form id="sizePicker">
 
-        Grid Height:
+        <p><h3 class="neonEffect">Height:</h3>
 
-        <input type="number" id="inputHeight" name="height" min="1" value="1">
+        <input type="number" id="inputHeight" name="height" min="1" value="20">
+        </p>
 
-        Grid Width:
+        <p><h3 class="neonEffect">Width:</h3>
 
-        <input type="number" id="inputWeight" name="width" min="1" value="1">
+        <input type="number" id="inputWeight" name="width" min="1" value="20">
+        </p>
 
-        <input type="submit">
+        <p><input type="submit" class="submitButton neonEffect">
+        </p>
 
     </form>
+    </div>
 
-    <h2>Pick A Color</h2>
+    <div class="colorSection">
 
+    <h2 class="colorHeader neonEffect">Pick A Color </h2>
+    <br>
     <input type="color" id="colorPicker">
 
-    <h2>Design Canvas</h2>
+    </div>
+
+    <h2 class="canvasHeader neonEffect">Design Canvas</h2>
 
     <table id="pixelCanvas"></table>
+
+    <br>
+    <br>
+    <br>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="designs.js"></script>

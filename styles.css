@@ -5,12 +5,11 @@ body {
 }
 
 h1 {
+    font: normal 100px/normal "Monoton", Helvetica, sans-serif;
+}
+
+.neonEffect {
     display: inline-block;
--webkit-box-sizing: border-box;
--moz-box-sizing: border-box;
-box-sizing: border-box;
-float: none;
-z-index: auto;
 width: auto;
 height: auto;
 position: static;
@@ -22,7 +21,6 @@ overflow: visible;
 border: none;
 -webkit-border-radius: 0;
 border-radius: 0;
-font: normal 100px/normal "Monoton", Helvetica, sans-serif;
 color: rgba(255,255,255,1);
 text-decoration: normal;
 text-align: center;
@@ -43,13 +41,8 @@ transform: none;
 transform-origin: 50% 50% 0;
 }
 
-h1:hover {
+.neonEffect:hover {
     display: inline-block;
--webkit-box-sizing: border-box;
--moz-box-sizing: border-box;
-box-sizing: border-box;
-float: none;
-z-index: auto;
 width: auto;
 height: auto;
 position: static;
@@ -60,7 +53,6 @@ overflow: visible;
 border: none;
 -webkit-border-radius: 0;
 border-radius: 0;
-font: normal 100px/normal "Monoton", Helvetica, sans-serif;
 color: rgba(255,255,255,1);
 text-decoration: normal;
 text-align: center;
@@ -81,12 +73,28 @@ transform: none;
 transform-origin: 50% 50% 0;
 }
 
-h2 {
-    margin: 1em 0 0.25em;
+.sizeHeader,.colorHeader,.canvasHeader {
+    font: normal 35px/normal "Monoton", Helvetica, sans-serif;
 }
 
-h2:first-of-type {
-    margin-top: 0.5em;
+.submitButton {
+    font: normal 15px/normal "Monoton", Helvetica, sans-serif;
+}
+
+.sizeSection {
+    position: fixed;
+    top: 200px;
+    left: 10px;
+}
+
+.colorSection {
+    position: fixed;
+    top: 200px;
+    right: 10px;
+}
+
+h3 {
+    font: normal 15px/normal "Monoton", Helvetica, sans-serif;
 }
 
 table,
