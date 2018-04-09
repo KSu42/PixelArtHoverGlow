@@ -1,29 +1,23 @@
 console.log('bonjour');
 
-// Select color input
-var pickedColor = $('#colorPicker').val();
-// Select size input
-// var height = $('#inputHeight').val();
-// var width = $('#inputWeight').val();
-// Select canvas
-var pixelCanvas = $('#pixelCanvas');
-// Select submit button
-// var button = $('submitButton');
-
 // Submit button
 $("input[type='submit']").on("click",function(event) {
 
+	// prevent submit button from submitting data to form handler
 	event.preventDefault();
 
+	// store values from size input to use for makeGrid
 	const height = $("#inputHeight").val();
 	const width = $('#inputWeight').val();
 
+	// clear canvas before drawing
 	$("#pixelCanvas").empty();
+
+	// draw new grid according to size input values
 	makeGrid(height,width);
 });
 
 // When size is submitted by the user, call makeGrid()
-
 function makeGrid(height,width) {
 
 	// for number up to hieght
