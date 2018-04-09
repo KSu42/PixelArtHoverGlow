@@ -54,17 +54,16 @@ h1 {
         0 0 80px #00ffff , 0 0 100px #00ffff ;
 }
 
-.canvasHeader {
+.largeFont {
     font: normal 45px/normal "Monoton", Helvetica, sans-serif;
 }
 
-.sizeHeader,
-.colorHeader {
-    font: normal 30px/normal "Monoton", Helvetica, sans-serif;
+.mediumFont {
+    font: normal 25px/normal "Monoton", Helvetica, sans-serif;
 }
 
-.submitButton {
-    font: normal 25px/normal "Monoton", Helvetica, sans-serif;
+.smallFont {
+    font: normal 15px/normal "Monoton", Helvetica, sans-serif;
 }
 
 .sizeSection {
@@ -77,10 +76,6 @@ h1 {
     position: absolute;
     top: 200px;
     right: 10px;
-}
-
-h3 {
-    font: normal 15px/normal "Monoton", Helvetica, sans-serif;
 }
 
 table,
