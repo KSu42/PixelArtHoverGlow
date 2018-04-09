@@ -18,6 +18,7 @@ $("input[type='submit']").on("click",function(event) {
 	const height = $("#inputHeight").val();
 	const width = $('#inputWeight').val();
 
+	$("#pixelCanvas").empty();
 	makeGrid(height,width);
 });
 
